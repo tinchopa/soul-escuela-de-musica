@@ -1,0 +1,107 @@
+@import "./variables.scss";
+@import "./body.scss";
+@import "./header.scss";
+@import "./footer.scss";
+@import "./section.scss";
+
+/*MIXIN*/
+
+@mixin width-footer {
+	width: 100px;
+}
+
+
+/*EXTEND*/
+.extend {
+	@extend .texto-footer;
+	color: red;
+
+}
+
+/*GENERAL*/
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Secular One', sans-serif;
+	color: black;
+	font-size: map-get($map: $font-size, $key: font-m );
+	
+}
+
+
+.carousel-item{
+	height: 100vh;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+/* VISTA DESKTOP */
+
+
+@media (min-width: 768px) {
+
+
+
+.collapse {
+	padding-left: 520px; 
+}
+
+header .logo-inicio img{
+	width: 200px;
+}
+
+
+
+.marketing{
+	padding-top: 80px;
+
+}
+
+li{
+	padding: 7px;
+	padding-top: 100px;
+	font-size: map-get($map: $font-size, $key: font-m );
+}
+
+ul{
+	padding-right: 15px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img{
+	
+	@include width-footer;
+
+}
+
+.w-foto {
+    width: 100%!important;
+}
+
+.container-mapa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100vw;
+	padding: 20px;
+}
+
+.mapa{
+max-width: 100%;	
+}
+
+.container-mapa p{
+	padding-top: 178px;
+	color: $colorsecondary;
+	vertical-align: middle;
+}
+
+
+}

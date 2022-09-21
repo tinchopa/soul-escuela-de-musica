@@ -1,0 +1,75 @@
+/*HEADER*/
+header{
+	
+	
+	h1{
+		display: none;
+	}
+
+	ul{
+		display: flex;
+		justify-content: center;
+		li{
+			padding: 4px;
+			list-style: none;
+			font-size: map-get($map: $font-size, $key:font-s );
+			a{
+				text-decoration: none;			
+			}
+		}
+	}
+
+	ul li a:hover{
+		color: white;
+		font-size: map-get($map: $font-size, $key: font-l );
+	
+	}
+
+	.logo-inicio img{
+		width: 120px;
+	}
+	.logo-inicio{
+
+		animation-duration: 5s;
+		animation-name: aparecer;
+	   }
+	   @keyframes aparecer {
+		
+		0% {
+		opacity: 0;
+		}
+		
+		100% {
+		opacity: 1;
+		
+	   }
+	   
+	   
+	}
+	
+	.nav-link{
+		color: white;
+	}
+	.nav-link:hover{
+		color: #C14E1B;
+	}
+
+	#nav-link-custom{
+		color: #001C1A;
+		
+	}
+
+	#nav-link-custom:hover{
+			color: #C14E1B;
+		}
+	
+	.carousel-caption p{
+		color: white;
+		font-size: 30px;
+	}
+
+	.carousel-caption h5{
+		color: white;
+		font-size: 35px;
+	}
+}

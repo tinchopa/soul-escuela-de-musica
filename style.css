@@ -1,0 +1,171 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Secular One', sans-serif;
+	color: black;
+	font-size: 20px;
+}
+
+body {
+	background: rgb(0,198,189);
+	background: linear-gradient(100deg, rgba(0,198,189,1) 0%, rgba(255,101,33,1) 100%);
+	background-repeat: no-repeat;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	display: none;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+
+}
+
+li{
+	padding: 4px;
+	list-style: none;
+	font-size: small;
+	
+}
+
+
+.logo-inicio img{
+	width: 120px;
+}
+
+
+
+section img{
+	width: 100%;
+	padding-top: 5px;
+}
+
+section p{
+	padding: 5px;
+}
+
+footer{
+	padding-top: 10px;
+	display: flex;
+}
+
+footer div img{
+	width: 50px;
+	padding: 5px;
+}
+
+footer div{
+	display: flex;
+	padding: 3px;
+}
+
+footer p{
+	padding: 5px;
+}
+
+
+ul li a:hover{
+	color: white;
+	font-size: 30px;
+
+}
+
+.marketing{
+	padding-top: 80px;
+
+}
+
+.carouselExampleControls{
+	width: 65vh;
+}
+
+.col-lg-4 img{
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+
+}
+
+.col-lg-4 h2{
+	padding-top: 20px;
+}
+
+.btn {
+	background-color: black;
+}
+.logo-inicio{
+
+ animation-duration: 5s;
+ animation-name: aparecer;
+}
+@keyframes aparecer {
+ 
+ 0% {
+ opacity: 0;
+ }
+ 
+ 100% {
+ opacity: 1;
+ 
+}
+
+
+}
+
+
+
+
+
+
+/* VISTA DESKTOP */
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+.collapse {
+	padding-left: 520px; 
+}
+
+.logo-inicio img{
+	width: 200px;
+}
+
+.marketing{
+	padding-top: 80px;
+
+}
+
+li{
+	padding: 7px;
+	padding-top: 100px;
+	font-size: 20PX;
+}
+
+ul{
+	padding-right: 15px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img{
+	width: 100px;
+
+}
+
+
+}

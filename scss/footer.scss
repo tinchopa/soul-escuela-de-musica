@@ -1,0 +1,23 @@
+/*FOOTER*/
+footer {
+    padding-top: 40px;
+    padding-left: 10px;
+    display: flex; }
+  
+  footer div img {
+    width: 50px;
+    padding: 5px; }
+  
+  footer div {
+    display: flex;
+    padding: 3px; }
+  
+  footer p {
+    padding: 5px;
+    color: $colorsecondary;
+
+
+  .texto-footer{
+      font-size: map-get($map: $font-size, $key:font-m );
+     }
+}
