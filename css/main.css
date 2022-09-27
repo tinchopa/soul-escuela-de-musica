@@ -61,7 +61,7 @@ footer {
   display: flex; }
 
 footer div img {
-  width: 50px;
+  width: 75px;
   padding: 5px; }
 
 footer div {
@@ -71,7 +71,7 @@ footer div {
 footer p {
   padding: 5px;
   color: #001C1A; }
-  footer p .texto-footer, footer p .extend {
+  footer p .texto-footer {
     font-size: 20px; }
 
 /*SECTION NOSOTROS*/
@@ -166,11 +166,6 @@ legend {
 .datos-contacto div {
   color: #001C1A; }
 
-/*MIXIN*/
-/*EXTEND*/
-.extend {
-  color: red; }
-
 /*GENERAL*/
 * {
   margin: 0px;
@@ -203,8 +198,6 @@ legend {
   footer {
     display: flex;
     justify-content: space-between; }
-  footer div img {
-    width: 100px; }
   .w-foto {
     width: 100% !important; }
   .container-mapa {

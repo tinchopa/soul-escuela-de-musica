@@ -4,19 +4,7 @@
 @import "./footer.scss";
 @import "./section.scss";
 
-/*MIXIN*/
 
-@mixin width-footer {
-	width: 100px;
-}
-
-
-/*EXTEND*/
-.extend {
-	@extend .texto-footer;
-	color: red;
-
-}
 
 /*GENERAL*/
 * {
@@ -75,11 +63,6 @@ footer{
 	justify-content: space-between;
 }
 
-footer div img{
-	
-	@include width-footer;
-
-}
 
 .w-foto {
     width: 100%!important;
